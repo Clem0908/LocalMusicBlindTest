@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Local Music Blind Test</string>
+    <string name="play">Play</string>
+    <string name="configure">Configure</string>
+    <string name="database">Database</string>
+    <string name="add_folder">Add folder</string>
+    <string name="remove_folder">Remove folder</string>
+    <string name="purge_database">Purge database</string>
+    <string name="are_you_sure">Are you sure?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="unknown_folder">Unknown folder</string>
+</resources>
