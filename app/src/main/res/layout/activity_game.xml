@@ -10,27 +10,6 @@
         android:padding="16dp">
 
         <!-- Cover image -->
-        <!--
-        <ImageView
-            android:id="@+id/iv_cover"
-            android:layout_width="match_parent"
-            android:layout_height="200dp"
-            android:scaleType="centerCrop"
-            android:layout_marginBottom="16dp"
-            android:contentDescription="Album cover"/>-->
-
-        <!-- Revealed filename -->
-        <!--
-        <TextView
-            android:id="@+id/tv_filename"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text=""
-            android:textSize="18sp"
-            android:layout_marginBottom="16dp"
-            android:textAlignment="center"/>-->
-
-        <!-- Cover image -->
         <ImageView
             android:id="@+id/iv_cover"
             android:layout_width="match_parent"
@@ -38,14 +17,14 @@
             android:scaleType="centerCrop"
             android:layout_marginBottom="16dp"
             android:src="@drawable/ic_music_placeholder"
-            android:contentDescription="Album cover"/>
+            android:contentDescription="@string/album_cover"/>
 
         <!-- Title -->
         <TextView
             android:id="@+id/tv_title"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Track: ?"
+            android:text="@string/track_query"
             android:textSize="20sp"
             android:textStyle="bold"
             android:gravity="center"
@@ -56,7 +35,7 @@
             android:id="@+id/tv_album"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Album: ?"
+            android:text="@string/album_query"
             android:textSize="16sp"
             android:gravity="center"/>
 
@@ -65,7 +44,7 @@
             android:id="@+id/tv_artist"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Album: ?"
+            android:text="@string/artist_query"
             android:textSize="16sp"
             android:gravity="center"/>
 
@@ -74,7 +53,7 @@
             android:id="@+id/tv_year"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Year: ?"
+            android:text="@string/year_query"
             android:textSize="16sp"
             android:gravity="center"/>
 
@@ -83,7 +62,7 @@
             android:id="@+id/tv_time"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Time: N/A"
+            android:text="@string/time_na"
             android:textSize="16sp"
             android:gravity="center"
             android:layout_marginBottom="16dp"/>
@@ -94,35 +73,35 @@
             android:id="@+id/btn_start"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Start song"
+            android:text="@string/start_song"
             android:layout_marginBottom="8dp"/>
 
         <Button
             android:id="@+id/btn_stop"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Stop song"
+            android:text="@string/stop_song"
             android:layout_marginBottom="8dp"/>
 
         <Button
             android:id="@+id/btn_restart"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Restart song"
+            android:text="@string/restart_song"
             android:layout_marginBottom="8dp"/>
 
         <Button
             android:id="@+id/btn_reveal"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Reveal"
+            android:text="@string/reveal"
             android:layout_marginBottom="8dp"/>
 
         <Button
             android:id="@+id/btn_next"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Next song"
+            android:text="@string/next_song"
             android:layout_marginBottom="8dp"/>
         <ProgressBar
             android:id="@+id/progress_scan"
@@ -131,5 +110,6 @@
             android:layout_gravity="center"
             android:visibility="visible"
             style="?android:attr/progressBarStyleLarge"/>
+
     </LinearLayout>
 </ScrollView>

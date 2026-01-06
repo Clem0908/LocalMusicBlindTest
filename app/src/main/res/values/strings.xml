@@ -10,4 +10,21 @@
     <string name="yes">Yes</string>
     <string name="no">No</string>
     <string name="unknown_folder">Unknown folder</string>
+    <string name="album_cover">Album cover</string>
+    <string name="track_query">Track: ?</string>
+    <string name="album_query">Album: ?</string>
+    <string name="artist_query">Artist: ?</string>
+    <string name="year_query">Year: ?</string>
+    <string name="time_na">Time: N/A</string>
+    <string name="start_song">Start song</string>
+    <string name="stop_song">Stop song</string>
+    <string name="restart_song">Restart song</string>
+    <string name="reveal">Reveal</string>
+    <string name="next_song">Next song</string>
+    <string name="difficulty">Difficulty</string>
+    <string name="start_random">Start at random position</string>
+    <string name="duration_seconds">Duration (seconds)</string>
+    <string name="enter_duration">Enter duration in seconds</string>
+    <string name="lets_play">Let\'s play!</string>
+    <string name="tip_remove">Long press the folder to remove it</string>
 </resources>

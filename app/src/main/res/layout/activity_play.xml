@@ -14,7 +14,7 @@
             android:id="@+id/tv_difficulty_label"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Difficulty"
+            android:text="@string/difficulty"
             android:textSize="18sp"
             android:layout_marginTop="8dp"/>
 
@@ -24,7 +24,7 @@
             android:id="@+id/cb_random_start"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Start at random position"
+            android:text="@string/start_random"
             android:layout_marginBottom="16dp"/>
 
         <!-- Duration -->
@@ -32,7 +32,7 @@
             android:id="@+id/tv_duration_label"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Duration (seconds)"
+            android:text="@string/duration_seconds"
             android:textSize="18sp"/>
 
         <EditText
@@ -40,7 +40,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="number"
-            android:hint="Enter duration in seconds"
+            android:hint="@string/enter_duration"
             android:layout_marginBottom="24dp"/>
 
         <!-- Play button -->
@@ -48,7 +48,7 @@
             android:id="@+id/btn_play"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Let's play!" />
+            android:text="@string/lets_play" />
 
     </LinearLayout>
 </ScrollView>
