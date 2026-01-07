@@ -103,7 +103,7 @@ class GameActivity : AppCompatActivity() {
             progressBar.visibility = View.GONE
 
             if (audioFiles.isEmpty()) {
-                Toast.makeText(this@GameActivity, "No audio files found!", Toast.LENGTH_LONG).show()
+                Toast.makeText(this@GameActivity, R.string.no_audio_files, Toast.LENGTH_LONG).show()
                 finish()
                 return@launch
             }
@@ -144,7 +144,7 @@ class GameActivity : AppCompatActivity() {
 
     private fun selectNextSong() {
         if (playedIndices.size >= audioFiles.size) {
-            Toast.makeText(this, "All songs played! Returning to main menu.", Toast.LENGTH_LONG).show()
+            Toast.makeText(this, R.string.playlist_finished, Toast.LENGTH_LONG).show()
             finish()
             return
         }
@@ -229,8 +229,8 @@ class GameActivity : AppCompatActivity() {
                     null, null, null
                 )
                 title = cursor?.use {
-                    if (it.moveToFirst()) it.getString(0) else "Unknown"
-                } ?: "Unknown"
+                    if (it.moveToFirst()) it.getString(0) else R.string.unknown.toString()
+                } ?: R.string.unknown.toString()
             }
 
             tvTitle.text = "\nTrack: $title"

@@ -27,4 +27,7 @@
     <string name="enter_duration">Enter duration in seconds</string>
     <string name="lets_play">Let\'s play!</string>
     <string name="tip_remove">Long press the folder to remove it</string>
+    <string name="no_audio_files">No audio files found!</string>
+    <string name="playlist_finished">All songs played! Returning to main menu.</string>
+    <string name="unknown">Unknown</string>
 </resources>

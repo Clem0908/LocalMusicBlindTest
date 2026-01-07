@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Local Music Blind Test</string>
+    <string name="play">Jouer</string>
+    <string name="configure">Configurer</string>
+    <string name="database">Base de données</string>
+    <string name="add_folder">Ajouter dossier</string>
+    <string name="remove_folder">Retirer dossier</string>
+    <string name="purge_database">Purger la base de données</string>
+    <string name="are_you_sure">Êtes-vous sûr ?</string>
+    <string name="yes">Oui</string>
+    <string name="no">Non</string>
+    <string name="unknown_folder">Dossier inconnu</string>
+    <string name="album_cover">Couverture d\'album</string>
+    <string name="track_query">Piste : ?</string>
+    <string name="album_query">Album : ?</string>
+    <string name="artist_query">Artiste : ?</string>
+    <string name="year_query">Année : ?</string>
+    <string name="time_na">Temps : N/D</string>
+    <string name="start_song">Démarrer la chanson</string>
+    <string name="stop_song">Stopper la chanson</string>
+    <string name="restart_song">Redémarrer la chanson</string>
+    <string name="reveal">Révéler</string>
+    <string name="next_song">Prochaine chanson</string>
+    <string name="difficulty">Difficulté</string>
+    <string name="start_random">Démarrer à une position aléatoire</string>
+    <string name="duration_seconds">Durée (secondes)</string>
+    <string name="enter_duration">Entrer une durée en secondes</string>
+    <string name="lets_play">Jouons !</string>
+    <string name="tip_remove">Appuyer longuement sur un dossier pour le retirer</string>
+    <string name="no_audio_files">Aucun fichier audio trouvé !</string>
+    <string name="playlist_finished">Toutes les chansons ont été jouées ! Retour au menu principal.</string>
+    <string name="unknown">Inconnu</string>
+</resources>

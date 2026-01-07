@@ -45,7 +45,7 @@ class Configure : AppCompatActivity() {
 
         findViewById<Button>(R.id.purge_database).setOnClickListener {
             val builder = AlertDialog.Builder(this)
-            builder.setTitle("Purge database?")
+            builder.setTitle(R.string.purge_database)
             builder.setMessage(R.string.are_you_sure)
             builder.setPositiveButton(R.string.yes) { _, _ ->
                 lifecycleScope.launch { repository.deleteAll() }
@@ -62,7 +62,7 @@ class Configure : AppCompatActivity() {
                 Intent.FLAG_GRANT_READ_URI_PERMISSION
             )
 
-            val folderName = DocumentFile.fromTreeUri(this@Configure, uri)?.name ?: "Unknown"
+            val folderName = DocumentFile.fromTreeUri(this@Configure, uri)?.name ?: R.string.unknown.toString()
 
             repository.insert(FolderEntity(uri = uri.toString(), displayName = folderName))
             Log.i("Add Folder", "Name=$folderName URI=$uri")
